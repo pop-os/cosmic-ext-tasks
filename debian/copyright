@@ -1,5 +1,5 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: cosmic-settings
+Upstream-Name: cosmic-tasks
 Upstream-Contact: Eduardo Flores <edfloreshz@gmail.com>
 Source: https://github.com/edfloreshz/cosmic-tasks
 Files: *
