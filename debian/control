@@ -1,0 +1,25 @@
+Source: cosmic-ext-tasks
+Section: utils
+Priority: optional
+Maintainer: Michael Aaron Murphy <michael@mmurphy.dev>
+Build-Depends:
+    cargo,
+    debhelper-compat (=13),
+    git,
+    just,
+    libxkbcommon-dev,
+    pkgconf | pkg-config,
+    rustc
+Standards-Version: 4.6.2
+Homepage: https://github.com/pop-os/cosmic-ext-tasks
+
+Package: cosmic-ext-orderly
+Architecture: amd64 arm64
+Depends: cosmic-tasks
+Description: Transitional package for cosmic-ext-tasks
+
+Package: cosmic-tasks
+Architecture: amd64 arm64
+Depends: cosmic-ext-orderly
+Description: A simple task management application for the COSMIC™ desktop.
+ A simple task management application for the COSMIC™ desktop.
